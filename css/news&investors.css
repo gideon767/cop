@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Naviigation Section */
+.navbar {
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #dadada;
+}
+#marginSides {
+    padding: 1% 15%;
+}
+.navbar-nav .nav-item {
+    margin: 5px 10px;
+    font-weight: 500;
+}
+
+/* News And Investors Section */
+
+
+/* Footer Section */
+.footer_subscribe {
+    margin-top: 30px;
+}
+.footer_subscribe input {
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px solid rgb(190, 190, 190);
+}
+.footer_content .footer_title {
+    font-weight: 600
+}
+.footer_content .visit {
+    margin-top: 100px;
+}
+.footer_subscribe .btn {
+    background-color: rgba(62,101,83);
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footer__copy {
+    text-align: center;
+    font-size: .9rem;
+    color: rgb(190, 190, 190);
+    margin: 5rem 0 1rem;
+    padding-bottom: 3rem;
+}

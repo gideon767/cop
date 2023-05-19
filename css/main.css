@@ -1,0 +1,239 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+
+/* Naviigation Section */
+.navbar {
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #dadada;
+}
+#marginSides {
+    padding: 1% 15%;
+}
+.navbar-nav .nav-item {
+    margin: 5px 10px;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero_section {
+    margin: 100px 0;
+}
+.hero_body .hero_content .hero_heading{
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: rgb(37, 40, 38);
+    line-height: 1;    
+}
+.hero_body .hero_content_text {
+    margin-top: 30px;
+}
+.hero_content_text .hero_texts {
+    font-size: 1rem;
+    color: rgba(86,93,89);
+    font-weight: 400;
+    line-height: 2;
+}
+.hero_button {
+    margin-top: 50px;
+}
+.hero_button .hero-button {
+    background-color: rgba(62,101,83);
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.hero_image {
+    width: 80%;
+}
+
+/* Company Section */
+.company_section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.company_details {
+    margin-top: 10px;
+}
+.company_details .company_heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color:rgb(37, 40, 38);
+}
+.company_details .company_sub-details {
+    margin-top: 10px;
+}
+.company_sub-details .sub-details-text {
+    font-size: 1rem;
+    color: rgba(86,93,89);
+    font-weight: 400;
+    line-height: 2;
+}
+.company_readMore .companyReadButton {
+    padding: 0;
+    font-size: 1rem;
+    color: rgba(62,101,83);
+    font-weight: 400;
+    border: none;
+}
+.company_readMore .companyReadButton:hover {
+    text-decoration: underline;
+}
+.sub-details-text .sub_text_bold {
+    font-weight: 900;
+}
+i {
+    margin-right: 30px;
+}
+i:hover {
+    margin-left: 5px;
+}
+
+/* About Section */
+#about-us {
+    padding: 1% 15%;
+}
+.about_us {
+    margin: 150px 0;
+}
+.about_title .about_more {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(37, 40, 38);
+}
+.about_body {
+    margin-top: 20px;
+}
+.about_body .about_purpose {
+    color: rgb(37, 40, 38);
+    font-size: 1.3rem;
+}
+.about_body .about_purpose .purpose {
+    text-decoration: underline;
+    font-weight: 600;
+}
+.about_purpose_details .about_purpose_text {
+    font-size: 1rem;
+    color: rgba(86,93,89);
+    font-weight: 400;
+    line-height: 2;
+} 
+.about_content_body .about_image {
+    margin: 50px 0;
+}
+.about_content_body .about_image_edit {
+    border: 10px solid rgb(37, 40, 38);
+}
+.about_image .about_image_text {
+    margin: 10px 0;
+    font-size: .9rem;
+    color: rgb(141, 120, 0);
+    font-weight: 400;
+    cursor: pointer;
+}
+.about_image .about_image_text:hover {
+    text-decoration: underline;
+    color: rgba(86,93,89);
+}
+
+
+/* Contact Section */
+.contact {
+    background-color: rgba(230,239,235);
+    margin-bottom: 50px;
+    padding: 1% 15%;
+}
+.contact_heading .c_heading {
+    font-weight: 600;
+}
+.contact-info {
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.contact-content {
+    font-size: 1rem;
+    margin: 70px 0;
+}
+.contact_text .texts {
+    font-weight: 500;
+    color: rgba(37,40,38);
+}
+.form-floating  {
+    border: none;
+}
+.submit_button .submit {
+    background-color: rgba(62,101,83);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Footer Section */
+.footer_subscribe {
+    margin-top: 30px;
+}
+.footer_subscribe input {
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px solid rgb(190, 190, 190);
+}
+.footer_content .footer_title {
+    font-weight: 600
+}
+.footer_content .visit {
+    margin-top: 100px;
+}
+.footer_subscribe .btn {
+    background-color: rgba(62,101,83);
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footer__copy {
+    text-align: center;
+    font-size: .9rem;
+    color: rgb(190, 190, 190);
+    margin: 5rem 0 1rem;
+    padding-bottom: 3rem;
+}
+
+
+@media screen and (max-width:450px) {
+    .hero_body .hero_content .hero_heading{
+        font-size: 3rem;
+        font-weight: 700;
+        color: rgb(37, 40, 38);
+        line-height: 1;    
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .hero_image img {
+        margin-top: 50px;
+    }
+}
