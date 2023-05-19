@@ -109,46 +109,260 @@
         </section>
         <!-- Footer Section -->
         <footer class="footer_section" id="marginSides">
-            <div class="footer_container ">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="footer_content pt-5">
-                            <h3 class="footer_title">
-                                Subscribe to our newsletter <br> to stay update
-                            </h3>
-                            <div class="footer_subscribe">
-                                <input type="email"  id="floatingEmail" placeholder="Email" required>
-                                <button class="btn ">
-                                    Subscribe
-                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="contact-info mt-5">
-                            <h3 class="contact_text">
-                            Our Address </h3> 
-                            <span class="texts">Ghana</span> <br>
-                            <span class="texts">Michel-Camp</span> <br>
-                            <span class="texts">1234-House Number</span>
-                        </div>
+           	
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>About Us</h3>
+					<p>We are a Ghanaian company focused on providing premium quality food products, promoting health and economic well-being through sustainable practices, aligned with SDG Target 2.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>UseFull Links</h3>
+					<div class="list-inline f-social">
+                    <div style="color: white;">
+                        <span style="cursor: pointer;" onclick="window.location.href = 'index.php';">Home</span><br>
+                        <span style="cursor: pointer;" onclick="window.location.href = 'wholesale.php';">Wholesale</span><br>
+                        <span style="cursor: pointer;" onclick="window.location.href = 'brand.php';">Our Brands</span><br>
+                        <span style="cursor: pointer;" onclick="window.location.href = 'investors.php';">News & Investors</span><br>
                     </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="footer_content text-center">
-                            <h3 class="visit">
-                                Visit Our Social Media
-                            </h3>
-        
-                            <div class="footer_social-link">
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                            </div>
-                        </div>
                     </div>
-                </div>
-            </div>
-            <p class="footer__copy">© Copra Trading. All rigths reserved</p>
+
+					<ul class="list-inline f-social">
+                    <ul class="list-inline f-social">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </ul>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contact information</h3>
+					<p class="lead">Accra, Ghana</p>
+					<p class="lead"><a href="#">+233 54 802 6586</a></p>
+					<p><a href="#"> info@copratrading.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Opening hours</h3>
+					<p><span class="text-color">Monday: </span> 7:Am - 9PM</p>
+					<p><span class="text-color">Tue-Wed :</span> 7:Am - 8PM</p>
+					<p><span class="text-color">Thu-Fri :</span> 7:Am - 7PM</p>
+					<p><span class="text-color">Sat-Sun :</span> 7:Am - 11:30PM</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="company-name"> &copy; 2023 <a href="#">Copra Trading</a> Developed By :  KHomPaTech
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<!-- End Footer -->
+	<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" id="back-to-top" title="Back to top" style="display: none;">
+  <i class="bi bi-arrow-up"></i>
+  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+</a>
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/baguetteBox.min.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+
+    <style>
+        .list-inline .link-item {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .list-inline .link-item:hover {
+    color: green;
+  }
+.footer-area{
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+.bg-f{
+	background-image: url("img/5.jpg");
+	background-attachment: scroll;
+	background-clip: initial;
+	background-color: rgba(0, 0, 0, 0);
+	background-origin: initial;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.bg-f::before {
+    background: #010101;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+	opacity: 0.8;
+}
+
+.footer-area .container{
+	position: relative;
+	z-index: 1;
+}
+.footer-area h3{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 500;
+	border-bottom: 2px solid rgba(207, 166, 113, 0.5);
+	margin-bottom: 10px;
+}
+.footer-area p{
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.arrow-right{
+	position: relative;
+}
+.arrow-right::before {
+    content: "\f101";
+	font-family: 'FontAwesome';	
+	position: absolute;
+	right: 0px;
+	top: 0;
+	color: #fff;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+
+.footer-area p.lead{
+	font-size: 19px;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+.footer-area p.lead a{
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+.footer-area p.lead a:hover{
+	color: #d65106;
+}
+.footer-area p a{
+	font-size: 18px;
+	color: #ffffff;
+}
+.footer-area p a:hover{
+	color: #d65106;
+}
+
+.subscribe_form {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.subscribe_form .form_input {
+    display: block;
+    background-color: rgba(0,0,0,0.9);
+	border: 1px solid #ffffff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 10px;
+    float: left;
+	font-weight: 300;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+/* .subscribe_form .submit {
+    background-color: #d65106;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 10px;
+    float: left;
+    width: 100%;
+	border: none;
+	cursor: pointer;
+    transition: all 0.5s ease-in-out;
+} */
+.subscribe_form .submit {
+    background-color: #d65106;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 10px;
+    width: 100%;
+	border: none;
+	cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.subscribe_form .submit:hover{
+	background: #010101;
+}
+
+.f-social {
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.f-social li a {
+    font-size: 18px;
+    color: rgba(214, 81, 6);
+	width: 38px;
+	height: 38px;
+	display: block;
+	text-align: center;
+	line-height: 38px;
+	background: #ffffff;
+	border-radius: 4px;
+}
+
+.copyright{
+	margin-top: 20px;
+	position: relative;
+	display: block;
+	background-color: #010101;
+	border-top: 1px solid rgba(207, 166, 113);
+	padding: 30px 0;
+	z-index: 1;
+}
+
+.copyright .company-name{
+	font-size: 16px;
+	text-align: center;
+}
+.copyright .company-name a{
+	font-size: 16px;
+}
+
+    </style>
         </footer>
 
     </main>
