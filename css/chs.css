@@ -49,8 +49,9 @@ body {
 
 
 /* Footer Section */
-.foot section {
+.footer_section {
     margin-top: 100px;
+    background-color: rgba(230,239,235);
 }
 .footer_subscribe {
     margin-top: 30px;
@@ -74,10 +75,24 @@ body {
     font-size: 1rem;
     font-weight: 500;
 }
+.footer_social-link a{
+    text-decoration: none;
+    color: rgba(62,101,83);
+    margin: 0 10px;
+}
+.footer_social-link i:hover {
+    margin-left: 8px;
+}
 .footer__copy {
     text-align: center;
     font-size: .9rem;
     color: rgb(190, 190, 190);
     margin: 5rem 0 1rem;
     padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 830px){
+    .footer_subscribe button {
+        margin-top: 10px;
+    }
 }
