@@ -39,12 +39,13 @@
                     <li class="nav-item">
                         <a href="wholesale.html" class="nav-link">Wholesale</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="news&investors.html" class="nav-link">News & Investors</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
+
 
         <!-- Hero About And Our Company Section -->
         <!-- Hero Section -->
@@ -197,11 +198,11 @@
 
         <!-- Footer Section -->
        
-        <footer class="footer section" id="marginSides">
+        <footer class="footer_section" id="marginSides">
             <div class="footer_container parallax-content">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
-                        <div class="footer_content">
+                        <div class="footer_content pt-5">
                             <h3 class="footer_title">
                                 Subscribe to our newsletter <br> to stay update
                             </h3>
@@ -213,7 +214,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="contact-info">
+                        <div class="contact-info mt-5">
                             <h3 class="contact_text">
                             Our Address </h3> 
                             <span class="texts">Ghana</span> <br>
@@ -239,20 +240,17 @@
             </div>
             <p class="footer__copy">© Copra Trading. All rigths reserved</p>
         </footer>
-        <script>
-            // Parallax effect
-            window.addEventListener('scroll', function() {
-              const parallaxSections = document.querySelectorAll('.parallax');
-              for (let i = 0; i < parallaxSections.length; i++) {
-                const section = parallaxSections[i];
-                const yPos = -(window.pageYOffset / section.dataset.speed);
-                section.style.backgroundPosition = 'center ' + yPos + 'px';
-              }
-            });
-          </script>
     </main>
-
-   
-      
+    <script>
+        // Parallax effect
+        window.addEventListener('scroll', function() {
+          const parallaxSections = document.querySelectorAll('.parallax');
+          for (let i = 0; i < parallaxSections.length; i++) {
+            const section = parallaxSections[i];
+            const yPos = -(window.pageYOffset / section.dataset.speed);
+            section.style.backgroundPosition = 'center ' + yPos + 'px';
+          }
+        });
+      </script>
 </body>
 </html>
