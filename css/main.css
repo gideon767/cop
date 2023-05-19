@@ -192,6 +192,9 @@ i:hover {
 }
 
 /* Footer Section */
+.container {
+   background-color: rgba(230,239,235); 
+}
 .footer_subscribe {
     margin-top: 30px;
 }
